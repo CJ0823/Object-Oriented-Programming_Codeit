@@ -2,7 +2,7 @@ class User:
     # initialize 메소드를 여기 쓰세요
     # def initialize...
     def initialize(self, name, email, password):
-        self.name = name   #self.name의 name은 인스턴스 변수를 나타내고, 우항의 name은 initialize method를 불러왔을 때 parameter 중 하나로 입력받은 name을 말하는 것이다..
+        self.name = name   #self.name의 name은 인스턴스 변수를 나타내고, 우항의 name은 initialize method를 불러왔을 때 parameter 중 하나로 입력받은 name을 말하는 것이다.
         self.email = email
         self.password = password
 

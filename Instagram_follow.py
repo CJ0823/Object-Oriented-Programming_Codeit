@@ -35,7 +35,7 @@ class User:
         # 코드를 입력하세요
         self.following_list.append(another_user)
         another_user.followers_list.append(self)
-        """ 꼭 self가 아니라 Parameter를 Instance화 해서 표현해도 된다"""
+        """ 꼭 self가 아니라 Parameter(another_user)를 Instance화 해서 표현해도 된다"""
     # 내가 몇 명을 팔로우하는지 리턴
     def num_following(self):
         # 코드를 입력하세요
@@ -46,7 +46,7 @@ class User:
         return len(self.followers_list)
 
 """" self.len(following_list)라고 하면 안됨. 
-self.following_list 라고 해서 Instance를(List인) 호출하고, 그것의 길이를 len method로 구해야함. """
+self.following_list 라고 해서 Instance(List)를 호출하고, 그것의 길이를 len method로 구해야함. """
 
 
 # 유저들 생성
